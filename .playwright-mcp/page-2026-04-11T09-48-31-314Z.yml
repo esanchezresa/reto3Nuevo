@@ -1,0 +1,239 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "Logo Federación" [ref=e6] [cursor=pointer]:
+            - /url: index.php
+            - img "Logo Federación" [ref=e7]
+          - generic [ref=e8]:
+            - generic [ref=e9]: Federación Española de Balonmano
+            - generic [ref=e10]: "Temporada: 2024-2025"
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - generic [ref=e13]: "Temporada:"
+            - combobox "Temporada:" [ref=e14]:
+              - option "2024-2025" [selected]
+              - option "2025-2026"
+          - generic [ref=e16]:
+            - textbox "Usuario" [ref=e17]
+            - textbox "Contraseña" [ref=e18]
+            - button "Entrar" [ref=e19] [cursor=pointer]
+      - navigation [ref=e20]:
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "Inicio" [ref=e23] [cursor=pointer]:
+              - /url: index.php?page=inicio
+          - listitem [ref=e24]:
+            - link "Equipos" [ref=e25] [cursor=pointer]:
+              - /url: index.php?page=equipos
+          - listitem [ref=e26]:
+            - link "Jugadores" [ref=e27] [cursor=pointer]:
+              - /url: index.php?page=jugadores
+          - listitem [ref=e28]:
+            - link "Jornadas" [ref=e29] [cursor=pointer]:
+              - /url: index.php?page=jornadas
+          - listitem [ref=e30]:
+            - link "Clasificación" [ref=e31] [cursor=pointer]:
+              - /url: index.php?page=clasificacion
+  - main [ref=e32]:
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - img "Federación Española de Balonmano" [ref=e35]
+        - generic [ref=e36]:
+          - heading "Federación Española de Balonmano" [level=1] [ref=e37]
+          - paragraph [ref=e38]: Liga Nacional — Temporada 2024-2025
+      - generic [ref=e39]:
+        - heading "Clasificación" [level=2] [ref=e40]
+        - table [ref=e41]:
+          - rowgroup [ref=e42]:
+            - row "Pos Equipo V E D GF GC DG Pts" [ref=e43]:
+              - columnheader "Pos" [ref=e44]
+              - columnheader "Equipo" [ref=e45]
+              - columnheader "V" [ref=e46]
+              - columnheader "E" [ref=e47]
+              - columnheader "D" [ref=e48]
+              - columnheader "GF" [ref=e49]
+              - columnheader "GC" [ref=e50]
+              - columnheader "DG" [ref=e51]
+              - columnheader "Pts" [ref=e52]
+          - rowgroup [ref=e53]:
+            - row "1 Barcelona Barcelona 8 0 2 271 194 77 16" [ref=e54]:
+              - cell "1" [ref=e55]
+              - cell "Barcelona" [ref=e56]:
+                - link "Barcelona" [ref=e57] [cursor=pointer]:
+                  - /url: index.php?page=equipo&id=E001
+                  - img "Barcelona" [ref=e58]
+              - cell "Barcelona" [ref=e59]:
+                - link "Barcelona" [ref=e60] [cursor=pointer]:
+                  - /url: index.php?page=equipo&id=E001
+              - cell "8" [ref=e61]
+              - cell "0" [ref=e62]
+              - cell "2" [ref=e63]
+              - cell "271" [ref=e64]
+              - cell "194" [ref=e65]
+              - cell "77" [ref=e66]
+              - cell "16" [ref=e67]
+            - row "2 Valencia Valencia 6 0 4 178 140 38 12" [ref=e68]:
+              - cell "2" [ref=e69]
+              - cell "Valencia" [ref=e70]:
+                - link "Valencia" [ref=e71] [cursor=pointer]:
+                  - /url: index.php?page=equipo&id=E005
+                  - img "Valencia" [ref=e72]
+              - cell "Valencia" [ref=e73]:
+                - link "Valencia" [ref=e74] [cursor=pointer]:
+                  - /url: index.php?page=equipo&id=E005
+              - cell "6" [ref=e75]
+              - cell "0" [ref=e76]
+              - cell "4" [ref=e77]
+              - cell "178" [ref=e78]
+              - cell "140" [ref=e79]
+              - cell "38" [ref=e80]
+              - cell "12" [ref=e81]
+            - row "3 Granada Granada 5 0 5 257 214 43 10" [ref=e82]:
+              - cell "3" [ref=e83]
+              - cell "Granada" [ref=e84]:
+                - link "Granada" [ref=e85] [cursor=pointer]:
+                  - /url: index.php?page=equipo&id=E002
+                  - img "Granada" [ref=e86]
+              - cell "Granada" [ref=e87]:
+                - link "Granada" [ref=e88] [cursor=pointer]:
+                  - /url: index.php?page=equipo&id=E002
+              - cell "5" [ref=e89]
+              - cell "0" [ref=e90]
+              - cell "5" [ref=e91]
+              - cell "257" [ref=e92]
+              - cell "214" [ref=e93]
+              - cell "43" [ref=e94]
+              - cell "10" [ref=e95]
+            - row "4 Athletic Club Athletic Club 4 0 6 207 230 -23 8" [ref=e96]:
+              - cell "4" [ref=e97]
+              - cell "Athletic Club" [ref=e98]:
+                - link "Athletic Club" [ref=e99] [cursor=pointer]:
+                  - /url: index.php?page=equipo&id=E006
+                  - img "Athletic Club" [ref=e100]
+              - cell "Athletic Club" [ref=e101]:
+                - link "Athletic Club" [ref=e102] [cursor=pointer]:
+                  - /url: index.php?page=equipo&id=E006
+              - cell "4" [ref=e103]
+              - cell "0" [ref=e104]
+              - cell "6" [ref=e105]
+              - cell "207" [ref=e106]
+              - cell "230" [ref=e107]
+              - cell "-23" [ref=e108]
+              - cell "8" [ref=e109]
+            - row "5 Zaragoza Zaragoza 4 0 6 259 299 -40 8" [ref=e110]:
+              - cell "5" [ref=e111]
+              - cell "Zaragoza" [ref=e112]:
+                - link "Zaragoza" [ref=e113] [cursor=pointer]:
+                  - /url: index.php?page=equipo&id=E004
+                  - img "Zaragoza" [ref=e114]
+              - cell "Zaragoza" [ref=e115]:
+                - link "Zaragoza" [ref=e116] [cursor=pointer]:
+                  - /url: index.php?page=equipo&id=E004
+              - cell "4" [ref=e117]
+              - cell "0" [ref=e118]
+              - cell "6" [ref=e119]
+              - cell "259" [ref=e120]
+              - cell "299" [ref=e121]
+              - cell "-40" [ref=e122]
+              - cell "8" [ref=e123]
+            - row "6 Sevilla Sevilla 3 0 7 158 253 -95 6" [ref=e124]:
+              - cell "6" [ref=e125]
+              - cell "Sevilla" [ref=e126]:
+                - link "Sevilla" [ref=e127] [cursor=pointer]:
+                  - /url: index.php?page=equipo&id=E003
+                  - img "Sevilla" [ref=e128]
+              - cell "Sevilla" [ref=e129]:
+                - link "Sevilla" [ref=e130] [cursor=pointer]:
+                  - /url: index.php?page=equipo&id=E003
+              - cell "3" [ref=e131]
+              - cell "0" [ref=e132]
+              - cell "7" [ref=e133]
+              - cell "158" [ref=e134]
+              - cell "253" [ref=e135]
+              - cell "-95" [ref=e136]
+              - cell "6" [ref=e137]
+        - link "Ver clasificación completa" [ref=e139] [cursor=pointer]:
+          - /url: index.php?page=clasificacion
+      - generic [ref=e140]:
+        - heading "Últimos partidos" [level=2] [ref=e141]
+        - generic [ref=e142]:
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - img "Sevilla" [ref=e145]
+              - generic [ref=e146]: Sevilla
+            - generic [ref=e147]:
+              - generic [ref=e148]: 3 — 35
+              - generic [ref=e149]: Finalizado
+            - generic [ref=e150]:
+              - img "Barcelona" [ref=e151]
+              - generic [ref=e152]: Barcelona
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - img "Granada" [ref=e155]
+              - generic [ref=e156]: Granada
+            - generic [ref=e157]:
+              - generic [ref=e158]: 39 — 25
+              - generic [ref=e159]: Finalizado
+            - generic [ref=e160]:
+              - img "Zaragoza" [ref=e161]
+              - generic [ref=e162]: Zaragoza
+          - generic [ref=e163]:
+            - generic [ref=e164]:
+              - img "Athletic Club" [ref=e165]
+              - generic [ref=e166]: Athletic Club
+            - generic [ref=e167]:
+              - generic [ref=e168]: 20 — 26
+              - generic [ref=e169]: Finalizado
+            - generic [ref=e170]:
+              - img "Valencia" [ref=e171]
+              - generic [ref=e172]: Valencia
+        - link "Ver todas las jornadas" [ref=e174] [cursor=pointer]:
+          - /url: index.php?page=jornadas
+      - generic [ref=e175]:
+        - heading "Estadísticas de la temporada" [level=2] [ref=e176]
+        - generic [ref=e177]:
+          - generic [ref=e178]:
+            - generic [ref=e179]: "6"
+            - generic [ref=e180]: Equipos
+          - generic [ref=e181]:
+            - generic [ref=e182]: "55"
+            - generic [ref=e183]: Jugadores
+          - generic [ref=e184]:
+            - generic [ref=e185]: "30"
+            - generic [ref=e186]: Partidos jugados
+          - generic [ref=e187]:
+            - generic [ref=e188]: "1330"
+            - generic [ref=e189]: Goles totales
+      - generic [ref=e190]:
+        - heading "Equipos participantes" [level=2] [ref=e191]
+        - generic [ref=e192]:
+          - link "Barcelona Barcelona" [ref=e193] [cursor=pointer]:
+            - /url: index.php?page=equipo&id=E001
+            - img "Barcelona" [ref=e194]
+            - generic [ref=e195]: Barcelona
+          - link "Granada Granada" [ref=e196] [cursor=pointer]:
+            - /url: index.php?page=equipo&id=E002
+            - img "Granada" [ref=e197]
+            - generic [ref=e198]: Granada
+          - link "Sevilla Sevilla" [ref=e199] [cursor=pointer]:
+            - /url: index.php?page=equipo&id=E003
+            - img "Sevilla" [ref=e200]
+            - generic [ref=e201]: Sevilla
+          - link "Zaragoza Zaragoza" [ref=e202] [cursor=pointer]:
+            - /url: index.php?page=equipo&id=E004
+            - img "Zaragoza" [ref=e203]
+            - generic [ref=e204]: Zaragoza
+          - link "Valencia Valencia" [ref=e205] [cursor=pointer]:
+            - /url: index.php?page=equipo&id=E005
+            - img "Valencia" [ref=e206]
+            - generic [ref=e207]: Valencia
+          - link "Athletic Club Athletic Club" [ref=e208] [cursor=pointer]:
+            - /url: index.php?page=equipo&id=E006
+            - img "Athletic Club" [ref=e209]
+            - generic [ref=e210]: Athletic Club
+  - contentinfo [ref=e211]:
+    - generic [ref=e212]:
+      - img "Logo Federación" [ref=e213]
+      - paragraph [ref=e214]: © 2026 Federación Española de Balonmano. Todos los derechos reservados.

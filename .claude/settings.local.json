@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(php -f index.php)",
+      "Bash(/c/xampp/php/php.exe -f c:/xampp/htdocs/php/Reto3/index.php)",
+      "Bash(awk '/<temporada>/{getline; print}' c:/xampp/htdocs/php/Reto3/data/xml/ligaBalonmano.xml)",
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(curl -s \"https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/skills/taste-skill/SKILL.md\")",
+      "Bash(grep -o '--[a-zA-Z0-9_-]*' \"C:/xampp/htdocs/php/Reto3/css/styles.css\")"
+    ]
+  }
+}
