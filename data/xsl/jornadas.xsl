@@ -21,8 +21,8 @@
                         <xsl:variable name="visitanteEscudo" select="$equipos/equipo[id=$visitanteId]/escudo/url"/>
                         <div class="partido">
                             <span class="partido-equipo local">
-                                <img class="escudo-partido" src="{$localEscudo}" alt="{$localNombre}" onerror="this.src='imagenes/imagenes_Logos/logoFederacion.webp'"/>
                                 <xsl:value-of select="$localNombre"/>
+                                <img class="escudo-partido" src="{$localEscudo}" alt="{$localNombre}" onerror="this.src='imagenes/imagenes_Logos/logoFederacion.webp'"/>
                             </span>
                             <span class="partido-resultado">
                                 <xsl:choose>
@@ -37,8 +37,8 @@
                                 </xsl:choose>
                             </span>
                             <span class="partido-equipo visitante">
-                                <xsl:value-of select="$visitanteNombre"/>
                                 <img class="escudo-partido" src="{$visitanteEscudo}" alt="{$visitanteNombre}" onerror="this.src='imagenes/imagenes_Logos/logoFederacion.webp'"/>
+                                <xsl:value-of select="$visitanteNombre"/>
                             </span>
                             <span class="partido-estado estado-{estado}">
                                 <xsl:value-of select="estado"/>

@@ -685,7 +685,7 @@ select {
   align-items: center;
 }
 .escudo-mini {
-  /* width: 42px; */
+  width: 42px;
   height: 50px;
   object-fit: contain;
   flex-shrink: 0;
